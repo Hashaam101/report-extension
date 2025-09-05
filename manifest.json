@@ -1,0 +1,17 @@
+{
+	"manifest_version": 3,
+	"name": "Report Cleaner Activator",
+	"version": "1.0",
+	"description": "Injects a script to clean up report pages when activated.",
+	"permissions": ["scripting", "activeTab"],
+	"host_permissions": ["<all_urls>"],
+		"action": {
+			"default_popup": "popup.html"
+		},
+		"icons": {
+			"16": "logo.png",
+			"32": "logo.png",
+			"48": "logo.png",
+			"128": "logo.png"
+		}
+}
